@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+ div, table{
+	display: inline-table;
+}
+table, th, td {
+	border: 1px solid #bcbcbc;
+}

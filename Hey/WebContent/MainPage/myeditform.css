@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.wrap {
+   width : 500px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+table {
+   margin-left : auto;
+   margin-right: auto;
+   border : 3px solid gray;
+}
+
+td{
+   border : 1px solid gray; 
+}
+
+#title {
+   background-color: skyblue;
+}
+input[type=button], input[type=submit]{
+	margin: 2%;
+	width : auto;
+	height: 100%;
+	border-radius: 10px;
+	font-size: 20px;
+	
+	color: navy;
+	font-size: large;
+	font-family: 고딕;
+	font-weight: bold;
+	position: relative;
+	background-color: gold;
+	display:inline;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 60px;
+	text-align: center;
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	transform: translate(0, 0);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	cursor: pointer;
+	overflow: hidden;
+	
+	
+	
+}
+
+input[type=button]:active, input[type=submit]:active {
+	-webkit-transform: translate(0, 3px);
+	-moz-transform: translate(0, 3px);
+	transform: translate(0, 3px);
+}
